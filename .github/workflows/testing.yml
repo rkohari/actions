@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     this is here is job name:
-    runs-on:ubantu-latest
+    runs-on: ubantu-latest
     steps:
         - name: printing the string
           run: echo "hellow world github"
