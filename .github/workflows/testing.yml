@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
     run-shell-command:
-        runs-on: ubantu-latest
+        runs-on: self-hosted
         steps:
             - name: printing the string
               run: echo "hellow world github"
