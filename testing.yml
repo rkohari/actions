@@ -1,0 +1,16 @@
+name:  praticing the github actions
+
+on: [push]
+
+jobs:
+    this is here is job name:
+    runs-on:ubantu-latest
+    steps:
+        - name: printing the string
+          run: echo "hellow world github"
+        - name: multiline script
+          run: |
+            node -v
+            ls
+            
+
