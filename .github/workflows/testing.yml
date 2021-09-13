@@ -8,8 +8,11 @@ jobs:
     steps:
       - name: this is printing funtion
         run: echo "hellow world"
-
-   
+      - name: python command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python    
 
 
    
