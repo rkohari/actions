@@ -6,19 +6,16 @@ jobs:
     job-name:
         runs-on: ubuntu-latest
         steps:
+            - name: Flutter action
+              uses: subosito/flutter-action@v1.5.3
+
             - name: printing the string
               run: echo "hellow world github"
             - name: multiline script
               run: |
                node -v
             - name: installing flutter
-            - use: actions/setup-java@v1
-              with:
-                java-version: '12.x'
-              use: subosito/flutter-action@v1
-              with:
-                flutter-version: '2.0.5'
-              run: flutter pub get
+         
         
             
 
