@@ -13,8 +13,11 @@ jobs:
                node -v
             - name: installing flutter
             - use: actions/setup-java@v1
-              with: java-version: '12.x'
-              with: flutter-version: '2.0.5'
+              with:
+                java-version: '12.x'
+              use: subosito/flutter-action@v1
+              with:
+                flutter-version: '2.0.5'
               run: flutter pub get
         
             
