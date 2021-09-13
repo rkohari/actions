@@ -14,6 +14,11 @@ jobs:
           print(platform.processor())
         shell: python    
 
-
+  second-job:
+    runs-on: windows-latest
+    steps:
+      - name: current directory
+        run: Get-Location
+        
    
 
