@@ -13,4 +13,7 @@ jobs:
           pwd
           mkdir hari
           ls -a   
+      - name: listing all github data
+        run: |
+          echo "$GITHUB_ENV"
 
