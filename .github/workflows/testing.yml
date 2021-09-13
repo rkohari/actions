@@ -16,9 +16,10 @@ jobs:
 
   second-job:
     runs-on: windows-latest
+    needs: ["this-is-test-job"]
     steps:
       - name: current directory
         run: Get-Location
-        
+
    
 
