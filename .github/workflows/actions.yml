@@ -10,4 +10,5 @@ jobs:
       - name: using ready made github actions
         uses: actions/hello-world-javascript-action@v1
         with: 
-          who-to-greet: hari krishna
+          who-to-greet: venkat bro
+          
