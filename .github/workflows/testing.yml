@@ -3,7 +3,7 @@ name:  praticing the github actions
 on: [push]
 
 jobs:
-    run-shell-command:
+    job-name:
         runs-on: ubuntu-latest
         steps:
             - name: printing the string
