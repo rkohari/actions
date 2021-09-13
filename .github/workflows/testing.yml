@@ -11,7 +11,8 @@ jobs:
             - name: multiline script
               run: |
                node -v
-               ls
+            - name: installing flutter
+              run: flutter pub get
         
             
 
