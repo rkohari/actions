@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: this is printing funtion
-      - run: echo "hellow world"
+        run: echo "hellow world"
 
    
 
