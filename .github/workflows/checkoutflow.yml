@@ -15,5 +15,7 @@ jobs:
           ls -a   
       - name: listing all github data
         run: |
-          echo "$GITHUB_ENV"
-
+          echo $GITHUB_ENV
+          echo $GITHUB_REPOSITOY  
+          echo $GITHUB_WORKSPACE
+          echo "${{github.token}}"
