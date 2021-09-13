@@ -12,6 +12,9 @@ jobs:
               run: |
                node -v
             - name: installing flutter
+            - use: actions/setup-java@v1
+              with: java-version: '12.x'
+              with: flutter-version: '2.0.5'
               run: flutter pub get
         
             
