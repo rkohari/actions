@@ -1,10 +1,16 @@
 name: github actions pratice
 
-on: [push]
+on: [ push ]
 
 jobs:
-   job-name: this is job name
+  this-is-test-job:  
     runs-on: ubuntu-latest
     steps:
-      - name: print
-      - use: echo "hello world"
+      - name: this is printing funtion
+      - run: echo "hellow world"
+
+   
+
+
+   
+
