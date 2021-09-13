@@ -1,0 +1,15 @@
+name: working with checkout
+
+on: [push]
+
+jobs:
+  checkout-pratice:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout funtion
+        uses: actions/checkout@v2
+      - name: listing all files in remote server
+        run: |
+          pwd
+          ls -a   
+
