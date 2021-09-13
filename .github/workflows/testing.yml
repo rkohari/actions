@@ -2,4 +2,9 @@ name: github actions pratice
 
 on: [push]
 
-  
+jobs:
+   job-name: this is job name
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+      - use: echo "hello world"
