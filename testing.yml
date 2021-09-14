@@ -1,6 +1,6 @@
 name: github actions pratice
 
-on: [ push ]
+on: [ push,pull_request ]
 
 jobs:
   this-is-test-job:  
@@ -20,6 +20,3 @@ jobs:
     steps:
       - name: current directory
         run: Get-Location
-
-   
-
