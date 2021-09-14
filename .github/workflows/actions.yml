@@ -2,8 +2,8 @@
 name: Actions workflow
 
 on:
-   pull_request:
-     types: [assigned,]
+  repository_dispatch:
+
        
 
 jobs:
