@@ -3,7 +3,7 @@ name: Actions workflow
 
 on:
   repository_dispatch:
-    type: [activate]
+
        
 
 jobs:
