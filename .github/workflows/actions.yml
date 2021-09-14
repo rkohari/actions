@@ -3,6 +3,7 @@ name: Actions workflow
 
 on:
    pull_request:
+     types: [assigned,]
        
 
 jobs:
